@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    border: 2px solid;
+    padding: 20px;
+    background-color: gray;
+}
+#nav {
+    list-style: none;
+    display: flex;
+    float: right;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+}
+#nav li {
+    margin-right: 20px;
+    border:  solid black;
+    padding: 5px;
+    background-color: darkgrey;
+}
+#nav li a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    text-align: justify;
+}
+
+footer {
+    width: 100vw;
+    height: 40vh;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .icon ul {
+    display: block;
+    list-style: none;
+}
+footer i {
+    font-size: 50px;
+}
