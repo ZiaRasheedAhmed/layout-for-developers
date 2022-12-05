@@ -1,0 +1,18 @@
+.nav {
+    border: 2px solid gray;
+    padding-bottom: 50px ;
+}
+.Content {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+.Left {
+    border: 2px solid greenyellow ;
+}
+.Center {
+    border: 2px solid blue ;
+}
+.Right {
+    border: 2px solid yellow ;
+}
