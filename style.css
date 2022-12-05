@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .MainContainer {
     border: 2px solid pink;
 }
@@ -9,17 +14,37 @@
     border: 2px solid red;
     display: flex;
     justify-content: space-around;
-    height: 300px;
+    height: 80vh;
 }
 .Left {
     border: 2px solid greenyellow ;
-    flex-grow: 1;
+   /* flex-grow: 1; */
+   flex-basis: 20%;
 }
 .Center {
     border: 2px solid blue ;
-    flex-grow: 2;
+    flex-basis: 60%;
 }
 .Right {
     border: 2px solid yellow ;
-    flex-grow: 1;
+    flex-basis: 20%;
+}
+.Right i {
+    font-size: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+ul {
+    list-style: none
+    /* display: flex;
+    flex-direction: column; */
+}
+ul li {
+    margin-bottom: -4px;
+}
+.img-container {
+    display: flex;
+}
+.img-container p {
+    padding-top: 20px;
 }
